@@ -25,6 +25,5 @@ function [] = main(repeticiones)
     end
     mariomundo(bloques,tubos);
     %[p,x] = cdfpdfdiscreta(bloques);
-    %disp(tubos_last_row);
+    
 end
-%%[result3, result4] = tubos_diversion(bloquesindx, tubosindx); 

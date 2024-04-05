@@ -3,9 +3,6 @@ function [bloques,tubos] = actividad2(bloques,tubos)
     %Toma la fila número 6 de la matriz tubos.
     a = tubos(6,:);
     %Se crea la matriz de probabilidades 2x2
-    % m =[0.7,0.3;...
-    %    0.8,0.2];
-        
     m =[0.9,0.1;...
         0.8,0.2];
     if a ==[1]
